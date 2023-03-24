@@ -1,0 +1,53 @@
+########## Testing A Creature Solving mazeSimple.txt ##########
+
+10 7
+6 2
+xxxxxxxxxx
+x++xxx***x
+x++x++++*x
+x++*++*+*x
+x+++++++*x
+x++******x
+xx*xxxxxxx
+The creature successfully reached the exit of the maze!
+Path: EESSSSWWWWWWWNNNNESSSEEEEENNWWWSEEWNS
+
+########## Testing A Creature Solving mazeNoExit1.txt ##########
+
+10 7
+6 3
+xxxxxxxxxx
+x++xxx+++x
+x++x*++*+x
+x++++++++x
+x++++++++x
+x++++++++x
+xxxxxxxxxx
+The creature did not successfully reach the exit of the maze.
+Path: X
+
+########## Testing A Creature Solving maze.txt ##########
+
+20 7
+0 18
+xxxxxxxxxxxxxxxxxx*x
+x**** x***+++*xxxx*x
+x*xxxxx* x*xxx*+xx*x
+x*xxxx *xx*****+xx*x
+x*x*+***xxx  xx*xx*x
+x****xxxxxxx   ****x
+xxxxxxxxxxxxxxxxxxxx
+The creature successfully reached the exit of the maze!
+Path: WWWWSSSSEEENWEEENNNEEEEEESSEEEEENWSSEEENNNNN
+
+########## Testing A Creature Solving maze0.txt ##########
+
+10 5
+0 8
+xxxxxxxx*x
+xxx xxxx*x
+x xxxxx *x
+x xxxxxx x
+xxxxxxxxxx
+The creature successfully reached the exit of the maze!
+Path: ENN
